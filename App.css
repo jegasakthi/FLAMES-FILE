@@ -63,13 +63,14 @@ input{
 
 input:hover{
   border: 2px solid pink;
+  box-shadow: 4px 3px 4px 3px #fdcad3;
 }
 
 button{
-  background: #f52f50;
+  background: #fcb3bf;
   border-radius: 5px;
-  box-shadow: 2px 1px 3px 2px pink;
-  border: none;
+  border: 2px solid #fcb3bf;
+  outline: none;
   padding: 10px;
   width: 100%;
   text-align: center;
@@ -82,7 +83,8 @@ button{
 }
 
 button:focus{
-  background-color: #f3047c;
+  border: 3px solid #ff8b9e;
+  box-shadow: 5px  #f1c6cd;
 }
 p{
   color:#fff;
