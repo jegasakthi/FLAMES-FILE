@@ -1,0 +1,90 @@
+*{
+  padding: 0%;
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  
+}
+.App{
+  background: url(./images/heart.jpg)no-repeat  center center/cover;
+  border: none;
+  background-color: #f3bec7;
+  opacity: 0.9;
+  transform: scale3d(30);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  background: #fcf3f6;
+  /*background: url(./images/heart.jpg) no-repeat  center center/cover;8*/
+  border: 2px solid #fd8398;
+  box-shadow: 1px 2px #f33c57;
+  padding: 100px;
+  border-radius: 5px;
+
+}
+
+
+h1{
+  font-weight: 500;
+  font-size: 10vh;
+  color: #fff;
+  background-color: #faa7a7;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+label{
+  color: #161414;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 10px 0;
+
+}
+
+input{
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 2px solid #bbbbbd;
+  outline: none;
+  font-size: 20px;
+  background-color: #f8f6f6;
+  color: #0e0d0d;
+  border-radius: 5px;
+  font-weight: 300;
+}
+
+input:hover{
+  border: 2px solid pink;
+}
+
+button{
+  background: #f52f50;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px 2px pink;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+  cursor: pointer;
+
+}
+
+button:focus{
+  background-color: #f3047c;
+}
+p{
+  color:#fff;
+  font-size: 15px;
+}
